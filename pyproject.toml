@@ -1,0 +1,15 @@
+[project]
+name = "chatgpt-api"
+description = "A new ComfyUI node for OpenAI's ChatGPT API has been added. It currently supports single and multiple image inputs, text input, image generation, and image editing."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["aiohttp", "aiohttp-cors", "GitPython", "numpy", "Pillow", "requests", "torch"]
+
+[project.urls]
+Repository = "https://github.com/ainewsto/Comfyui-chatgpt-api"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui-chatgpt-api"
+Icon = ""
